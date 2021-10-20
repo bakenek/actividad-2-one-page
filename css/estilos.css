@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body{
+padding: 0 0 0 0;
+margin: 0 0 0 0;
+scroll-behavior: smooth;
+}
+#contenedor {
+width: 100%;
+height: 100%;
+margin: 0 0 0 0;
+}
+
+#nav{
+width: 100%;
+height: 50px;
+background-color:#000;
+color:#fff;
+line-height: 50px;
+position:fixed;
+top:0
+}
+#nav ul{
+padding-left: 60%;
+list-style-type: none;
+margin: 0px;
+padding: 0px;
+display:flex;
+justify-content:flex-end;
+}
+#nav ul li{
+display: block;
+width: 120px;
+
+float: left;
+text-align:center;
+}
+#nav ul li a{
+display: block;
+color: white;
+text-align: center;
+text-decoration: none;
+}
+#nav ul li a:hover{
+background-color:  #E00601;
+color: #fff;
+}
+.active {
+background-color:  #900;
+}
+#cabecera {
+height: 350px;
+width: 100%;
+background-size: 100% 100%;
+margin-bottom:-20px;
+}
+#cabecera img{
+border-radius: 100%;
+width: 120px;
+height: 120px;
+float: left;
+margin-right:10px;
+line-height: 150px;
+margin-top: 60px;
+margin-left: 150px;
+}
+#pie{
+width:100%;
+height: 100px;
+background-color:black;
+text-align: center;
+padding-top:8px;
+color:white;
+float: none;
+}
+#cuerpo{
+width: 90%;
+height: 100%;
+background-color:lightgrey;
+padding-left:5%;
+padding-right: 5%;
+padding-top: 2%;
+padding-bottom: 2%;
+display: table;
+}
+#contactos{
+text-align:center;
+height: 450px;
+width: 100%;
+background-size: 100% 100%;
+margin-top:0px;
+z-index: 0;
+color:#000;
+}
+#transparente h2{
+color:#fff;
+text-align: center;
+margin-top: 10px;
+}
+
+.input{
+width: 500px;
+height: 30px;
+margin-bottom: 20px;
+color:#000000;
+float: right;
+margin-right: 20px;
+}
+.textarea{
+width: 500px;
+color:#000000;
+float: none;
+}
+.button{
+width: 500px;
+color:#000000;
+float: none;
+
+}
+#transparente{
+z-index:1;
+width:100%;
+height:350px;
+background-color: #FF8080;
+border:1px solid black;
+opacity:0.9;
+filter:alpha(opacity=90);
+position:relative;
+margin-top:-350px;
+}
+
+#imge{
+	
+	}
+
+
